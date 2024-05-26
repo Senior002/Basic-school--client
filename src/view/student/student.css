@@ -1,0 +1,118 @@
+.mod {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    transition: 1s ease-in-out;
+}
+
+.btn3
+{
+    border: 1px solid green;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: green;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn3:hover
+{
+    border-radius: 15px;
+    background-color: green ;
+    color: yellowgreen;
+}
+
+.x_btn
+{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.x_btn i svg:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* for tablets and phones fixed size of exit btn (during press pay btn) */
+@media (max-width: 991px){
+    .x_btn
+    {
+        top: 150px;
+        right: 45px;
+    }
+}
+
+.back_part
+{
+    border-bottom: 1px solid silver;
+}
+
+.backer:hover
+{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.under_btns
+{
+    padding-top: 22px;
+}
+
+.under_btns i svg:hover
+{
+    cursor: pointer;
+}
+
+.casher
+{
+    color: #0d6efd;
+}
+
+.casher:hover
+{
+    color: rgb(6, 144, 6);
+}
+
+.orab
+{
+    border-top: 1px solid #0d6efd;
+}
+
+.image img
+{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid silver ;
+}
+
+.image img:hover
+{
+    border-color: #0d6efd;
+    cursor: pointer;
+}
+.cardy
+{
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px 0px #0d6efd;
+    padding: 2rem;
+}
+
+.cardy:hover
+{
+    border-color: #0d6efd;
+    transition: 0.5s ease;
+    box-shadow: none;
+}

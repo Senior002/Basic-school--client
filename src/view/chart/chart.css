@@ -1,0 +1,66 @@
+/* .wrap
+{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+} */
+
+/* .bdy
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 180px;
+}
+
+.bdy2
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+} */
+
+/* .soni
+{
+    text-align: center;
+} */
+
+.bow
+{
+    justify-content: space-around;
+}
+
+.header_tex
+{
+    display: flex;
+    justify-content: center;
+}
+
+.static
+{
+    margin-right: 20px;
+    color: #0d6efd;
+}
+
+.static_icon
+{
+    color: red;
+}
+
+.static_icon:hover
+{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.logout_btn
+{
+    color: #0d6efd;
+}
+
+.logout_btn:hover
+{
+    cursor: pointer;
+    color: blueviolet;
+}

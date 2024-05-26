@@ -1,0 +1,148 @@
+.login_content2
+{
+    padding: 20px;
+    width: 775px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.student_add_inp
+{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 98vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(25px);
+        transition: 1s ease-in-out;
+}
+
+.btn1
+{
+    border: 1px solid #0d6efd;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: #0d6efd;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn1:hover
+{
+    border-radius: 15px;
+    background-color: #0d6efd ;
+    color: white;
+}
+
+/* .btner::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1:hover
+{
+    color: #3498db;
+}
+
+.btn1::before
+{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    height: 180%;
+}
+
+.btn1:hover::before
+{
+    height: 0%;
+} */
+
+.x_btn_subject
+{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.x_btn_subject i svg:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* for tablets and phones fixed size of exit btn (during press pay btn) */
+@media (max-width: 991px){
+    .x_btn_subject
+    {
+        top: 150px;
+        right: 45px;
+    }
+}
+
+.bi-plus-circle-dotted
+{
+    cursor: pointer;
+}
+
+.bi-plus-circle-dotted:hover
+{
+    color: greenyellow;
+}
+
+.bi-pen
+{
+    cursor: pointer;
+}
+
+.bi-pen :hover
+{
+    color: aqua;
+}
+
+.bi-trash2
+{
+    cursor: pointer;
+}
+
+.bi-trash2 :hover
+{
+    color: red;
+}
+
+.bordr
+{
+    border-top: 0.5px solid #0d6efd;
+}
+
+.cardo
+{
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: -2px 8px 13px 0px #0d6efd;
+}
+
+.cardo:hover
+{
+    box-shadow: none;
+    transition: 0.5s ease-out;
+}
+
+.galava:hover
+{
+    color: #0d6efd;
+    cursor: pointer;
+}

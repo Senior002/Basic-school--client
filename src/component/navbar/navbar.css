@@ -1,0 +1,15 @@
+.navbar_item
+{
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.navbar_item:hover
+{
+    text-decoration: underline;
+}
+
+li
+{
+    list-style: none;
+}

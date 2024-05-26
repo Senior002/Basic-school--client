@@ -1,0 +1,126 @@
+.login_content4
+{
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.group_add_inp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    transition: 1s ease-in-out;
+}
+
+.grp_std_add
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    transition: 1s ease-in-out;
+}
+
+.card_iconca:hover
+{
+    cursor: pointer;
+    color: #0d6efd;
+}
+
+.btns .bij
+{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.btns .bij:hover
+{
+    color: red;
+    
+}
+
+.btns .bip
+{
+    cursor: pointer;
+}
+.btns .bip:hover
+{
+    color: greenyellow;
+}
+
+
+.gruppa
+{
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0px;
+    border: 1px solid white;
+    background-color:  #0d6efd;
+    
+}
+
+.gruppa:hover
+{
+    color: #0d6efd !important;
+    background-color: white !important;
+    border: 1px solid #0d6efd;
+    transition: 0.4s all;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn2
+{
+    border: 1px solid #0d6efd;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: #0d6efd;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn2:hover
+{
+    border-radius: 15px;
+    background-color: #0d6efd ;
+    color: white;
+}
+
+.x_btn_group
+{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.x_btn_group i svg:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* for tablets and phones fixed size of exit btn (during press pay btn) */
+@media (max-width: 991px){
+    .x_btn_group
+    {
+        top: 150px;
+        right: 45px;
+    }
+}

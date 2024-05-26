@@ -1,0 +1,68 @@
+/*.menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 10px 40px;
+    list-style: none;
+    background-color: rgb(62, 62, 62);
+    
+}
+
+.menus li a{
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    cursor:pointer;
+    display: inline-block;
+    border: 1px;
+}
+
+.title{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.tanla{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    border: 1px;
+}
+
+.threeTag{
+    display: flex;
+    font-family: sans-serif;
+}
+
+.threeTag li{
+    padding: 20px;
+    list-style: none;
+    cursor: pointer;
+    background-color: rgb(255, 198, 53);
+    margin: 10px;
+    font-family: sans-serif;
+    
+}
+
+.threeTag li:hover{
+    background-color:white;
+    color: rgb(255, 198, 53);
+}
+
+.card{
+    display: flex;
+    display: inline-block;
+    padding: 20px,50px,20px,50px;
+    margin: 40px;
+    background-color: bisque;
+    width: 600px;
+}
+.card .oneHalf,.forth{
+    margin-left: 20px;
+    
+}*/

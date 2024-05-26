@@ -1,0 +1,128 @@
+.header_part i:hover
+{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.header_part
+{
+    border-bottom: 1px solid silver;
+}
+
+.cost_adder_btn i:hover
+{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.cost_add_inp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+    transition: 1s ease-in-out;
+}
+
+.wrepper
+{
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.cardos
+{
+    border-radius: 5px;
+    box-shadow: 5px 10px 30px 0px #0d6efd;
+}
+
+.cardos:hover
+{
+    transition: 0.5s ease;
+    box-shadow: none;
+    border: 1px solid #0d6efd;
+}
+
+.under_btn
+{
+    border-top: 1px solid silver;
+}
+
+.btn5
+{
+    border: 1px solid #0d6efd;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    color: #0d6efd;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn5:hover
+{
+    border-radius: 15px;
+    background-color: #0d6efd ;
+    color: white;
+}
+
+/* .add_cost_btn
+{
+    box-shadow: 0 0 5px cyan,
+    0 0 10px cyan;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.add_cost_btn:hover
+{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 10px cyan, 0 0 50px cyan;
+    background-color: aqua;
+    border: 1px solid silver;
+    color: white;
+} */
+.x_btn
+{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.x_btn i svg:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* for tablets and phones fixed size of exit btn (during press pay btn) */
+@media (max-width: 991px){
+    .x_btn
+    {
+        top: 150px;
+        right: 45px;
+    }
+    .form_copy
+    {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 576px){
+    .wrepper
+    {
+        padding: 50px 50px;
+    }
+    
+}

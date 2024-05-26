@@ -1,0 +1,209 @@
+/* under upload way used when if you wanted load photo by url/ internet  */
+/* @import url('./education.jpg'); */ 
+
+*
+{
+    font-family: 'poppins', sans-serif;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('./education.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.form_box
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+}
+
+.hash_two
+{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.SELECTR
+{
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.SELECTR option
+{
+    background-color: silver;
+}
+
+.input_box
+{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.input_box label
+{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus ~ .letter,
+input:valid ~ .letter
+{
+    top: -5px;
+}
+
+input
+{
+    color: #fff;
+}
+
+.SELECTR textarea
+{
+    color: transparent;
+}
+
+/* input, select, textarea{
+    color: #ff0000;
+} */
+
+textarea:focus, input:focus {
+    color: greenyellow;
+}
+
+input:focus ~ label,
+input:valid ~ label
+{
+    top: -5px;
+}
+.input_box input
+{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+.input_box .EYE, .letter
+{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+.EYE svg:hover
+{
+    cursor: pointer;
+    color: greenyellow;
+    height: 25px;
+    width: 25px;
+}
+
+.letter svg:hover
+{
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.forget
+{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input
+{
+    margin-right: 3px;
+}
+
+.forget label a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.forget label a:hover
+{
+    text-decoration: underline;
+}
+
+.forget .forgt_paswrd
+{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.forget .forgt_paswrd:hover
+{
+    text-decoration: underline;
+}
+
+.login_btner
+{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.register
+{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register .yozv .hovola 
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register .yozv .hovola:hover
+{
+    text-decoration: underline;
+}
